@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     FirebaseApp.initializeApp(options)
 
-    val token = "cz1UEFkWTQWBYRnojbV0Ed:APA91bGFhLcadkyiyndCta0GVdIz_1schlp3eCE0aQ8ZsmLQ5vz9sOjfgqBq0AXndRGvxBjSTF-v3ORHlaR-vL7Xhdy2RIUoRLDF4frFP-7tPeQoGphwV4DyrY-7UEe10p9KqfhopcfU"
+    val token = "ea_RfIL5TVSgSQRqbS3AmN:APA91bGTYb_fDamLncejnXjsthSUCmykjQq3AGWDWtR_dorVkqyLa1H-8BWfPSPCDM51Ijoj-eCc-8xJZuz7dg2k9KEahE6d_pVqHiAb_Ettd6SLhdQKlfKdXyMK0lMB3g0pt6egndgb"
     val message = Message.builder()
         .putData("action", "LIKE")
         .putData("content", """{
