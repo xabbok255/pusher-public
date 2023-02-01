@@ -6,6 +6,7 @@ import com.google.firebase.messaging.Message
 import java.io.FileInputStream
 
 fun main(args: Array<String>) {
+    println("started")
     val options = FirebaseOptions.builder()
         .setCredentials(GoogleCredentials.fromStream(FileInputStream("gsa.json")))
         .build()
@@ -25,4 +26,5 @@ fun main(args: Array<String>) {
         .build()
 
     FirebaseMessaging.getInstance().send(message)
+    println("stopped")
 }
